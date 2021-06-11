@@ -47,4 +47,19 @@ public class CILabTest {
         assertEquals(expected, actual);
     }
 
+    @Test
+    public void detectCapitalUseTest4() {
+        myString.setString("");
+        boolean expected = false;
+        boolean actual = myString.detectCapitalUse();
+        assertEquals(expected, actual);
+    }
+
+    @Test
+    public void detectCapitalUseTest5() {
+        myString.setString("goOgle");
+        boolean expected = false;
+        boolean actual = myString.detectCapitalUse();
+        assertEquals(expected, actual);
+    }
 }
