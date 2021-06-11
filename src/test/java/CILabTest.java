@@ -50,7 +50,7 @@ public class CILabTest {
     @Test
     public void detectCapitalUseTest4() {
         myString.setString("");
-        boolean expected = false;
+        boolean expected = true;
         boolean actual = myString.detectCapitalUse();
         assertEquals(expected, actual);
     }
